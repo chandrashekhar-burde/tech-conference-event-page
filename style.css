@@ -78,8 +78,26 @@ td, th {
     background-color: #eee;
 }
 
-#speakers .author b {
-    color: dodgerblue;
+#speakers .authors {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+#speakers .author img {
+    border-radius: 50%;
+    background-color: #dde;
+}
+
+#speakers .author {
+    width: 300px;
+    text-align: center;
+}
+
+#speakers .author p b {
+    color: indigo;
 }
 
 #contact form {
@@ -108,14 +126,23 @@ td, th {
     background-color: green;
     border: none;
     cursor: pointer;
+    transition: 0.3s all ease-in-out;
 }
 
 #contact form button:hover {
-    background-color: #4040ff;
+    background-color: indigo;
 }
 
 footer {
     text-align: center;
     background-color: yellowgreen;
-    padding: 10px 0;
+    padding: 10px;
+}
+
+@media (max-width: 1060px) {
+    #speakers .authors {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px 12px;
+    }
 }
