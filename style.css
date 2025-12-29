@@ -1,0 +1,121 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #eee;
+}
+
+header {
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 25px 0 0 0;
+}
+
+header p {
+    margin: 18px 0;
+}
+
+header  nav {
+    padding: 10px 0;
+    background-color: #232323;
+}
+
+header nav div {
+    display: inline-flex;
+    gap: 50px;
+}
+
+header nav a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: orange;
+}
+
+main {
+    width: 100vw;
+    height: auto;
+}
+
+section {
+    width: 90vw;
+    margin: 18px auto;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px silver;
+}
+
+section h2 {
+    color: navy;
+    margin-bottom: 10px;
+}
+
+#schedule table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid silver;
+    padding: 10px 8px;
+}
+
+#schedule table thead {
+    background-color: #e4e3e3;
+}
+
+#schedule table tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+#speakers .author b {
+    color: dodgerblue;
+}
+
+#contact form {
+    width: 85%;
+    margin: auto;
+}
+
+#contact form label {
+    display: block;
+    font-weight: bold;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    margin: 8px 0 20px;
+    padding: 8px;
+    border: 1px solid silver;
+}
+
+#contact form button {
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 0;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #4040ff;
+}
+
+footer {
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 10px 0;
+}
