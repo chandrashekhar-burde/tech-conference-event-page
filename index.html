@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to GeeksforGeeks TechCon-2025</h1>
+        <p>The Ultimate Technology and Programming Conference</p>
+        <nav>
+            <div id="nav-links">
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#speakers">Speakers</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About the Event</h2>
+            <p>GeeksforGeeks TechCon-2025 brings together leading minds in programming, tech and innovation.</p>
+        </section>
+
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Session</th>
+                        <th>Contest</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Opening Keynote</td>
+                        <td>GeeksforGeeks Coding Platform</td>
+                    </tr>
+                    <tr>
+                        <td>10:30 AM</td>
+                        <td>Understanding AI and Machine Learning</td>
+                        <td>Mr. Arvind Kumar</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>Lunch Break</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td>Exploring the Future of Cloud Computing</td>
+                        <td>Ms. Neha Gupta</td>
+                    </tr>
+                </tbody>
+        </table>
+    </section>
+    
+        <section id="speakers">
+            <h2>Meet the Speakers</h2>
+            <div>
+                <p class="author"><b>Dr. Radhika Sharma:</b> AI Expert and Researcher</p>
+                <p class="author"><b>Mr. Arvind Kumar:</b> Senior Data Scientist at TechWave</p>
+                <p class="author"><b>Ms. Neha Gupta:</b> Cloud Computing Specialist at CloudTech</p>
+                <p class="author"><b>Mr. Sandeep Reddy:</b> Full Stack Developer and Open-Source Contributer</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="/submit.js" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="example@mail.com" autocomplete="email">
+                </div>
+                <div>
+                    <label for="msg">Message:</label>
+                    <textarea name="msg" id="msg" rows="5" placeholder="Enquire Now..."></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Created by Chandrashekhar Burde. &copy;2025 All rights reserved.
+    </footer>
+</body>
+</html>
